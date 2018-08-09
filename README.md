@@ -1,5 +1,5 @@
 # CS109A Final Project Project: 
-# LendingClub Investments
+## LendingClub Investments
 
 ### By Dan Ngo (Group #7)
 
@@ -20,7 +20,7 @@ With this in mind, we hope to address the issue of discrimination the best way w
 
 Based on only the common data between the accepted and rejected loan applications datasets, can we classify whether a loan application will be rejected or not? Originally, we hoped to build a predictive model that incorporates text descriptions from the application, zip code information, FICO score, years of employment, and debt to income ratio, to estimate classification accuracy, sensitivity (true positive rate: how accurate are we at predicting the loans that ended upbeing approved), and specificity (true negative rate: how accurate we are at predicting the loans that ended being rejected). However, as you will see in our early exploration of the data, the data is limited, in the sense that there is plenty of data on applications where the loans were approved but that same type of data does not appear in the data on applications where the loans were rejected. All applications initially feature the same type of information when being completed and being submitted. Yet, there is some missing information in the dataset of accepted loans and much more missing information in the dataset of rejected loans. We will explain a potential rationale and the implications of this near the end. Nonetheless, we could only use data that was common between both datasets. There are 4 columns of data that were common: state of residence, the first 3 digits of an applicant's zip code (more on this near the end), FICO score, and years of employment. Debt to income ratio appears in the rejected dataset but not the accepted. We were able to calculate this ourselves for the accepted dataset by dividing loan amount column by the income amount column, using the loan amount requested as a proxy for debt. We then will filter these 5 common columns from both datasets and add an additional binary column that states whether the loan application was rejected/accepted. This new column will be the response variable. Finally, we merge the two datasets by concatenating the rows. We're building a binary classifier, and will experiment with 7 different classification models: logistic regression, linear discriminant analysis, quadratic discriminant analysis, K-nearest neighbors, random forests, boosting, and stacking.
 
-#### Data resources
+#### Data Eesources
 
 [Loan Data](https://github.com/Polkaguy/LendingClubData)
 
