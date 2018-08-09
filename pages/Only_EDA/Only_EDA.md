@@ -1,7 +1,7 @@
 
 # Exploratory Data Analysis (EDA)
 
-#### It appears FICO scores are bimodal for loans that were rejected. For loans that were accepted, it appears FICO scores were above a certain threshold- over 600. This could useful information for our model.
+#### It appears FICO scores are bimodal for loans that are rejected. For loans that are accepted, it appears FICO scores are above a certain threshold- over 600. This could useful information for our model.
 
 
 ```python
@@ -30,7 +30,7 @@ plt.show()
 ![png](output_4_0.png)
 
 
-#### It appears accepted loans come more from those who worked 10+ years (10+ in the dataset was re-coded to a numeric 10 for easier computation). Those who have less working experience are more likely to be rejected for loans. A variable that could correlate with this years of employment variable is age. The older you are, the more years you will work. However, age is not a column in the dataset. So there will be no issue of collinearity.
+#### It appears accepted loans come more from those who work 10+ years (10+ in the dataset was re-coded to a numeric 10 for easier computation). Those who have less working experience are more likely to be rejected for loans. A variable that could correlate with this years of employment variable is age. The older you are, the more years you will work. However, age is not a column in the dataset. So there will be no issue of collinearity.
 
 
 ```python
@@ -75,7 +75,13 @@ ax3.set_title('Employment Length')
 ![png](output_7_1.png)
 
 
-#### From the 3 plots above, we can see that the log of Debt-To-Income Ratio has a narrower distribution for accepted loans, FICO scores for accepted applications are above a certain threshold, and years of employment tends to vary among the accepted loans and rejected loans. For accepted, there were more people who worked 10+ years. For rejected, there were more people who worked for less than 2 years.
+#### From the 3 plots above, we can see that 
+
+**1.** The log of Debt-To-Income Ratio has a narrower distribution for accepted loans.
+
+**2.** FICO scores for accepted applications are above a certain threshold.
+
+**3.** Years of employment tends to vary among the accepted loans and rejected loans. For accepted, there are more people who worked 10+ years. For rejected, there are more people who worked for less than 2 years.
 
 #### In fact, among each classified employment length, we can see how the log of Debt-To-Income Ratio and FICO score are distributed. Those with rejected loans tended to have much wider distributions for each:
 
@@ -129,7 +135,7 @@ plt.show()
 ![png](output_13_0.png)
 
 
-#### Years of employment could be a nice proxy for age (age data was not available in any of the datasets). As seen below, those who were younger, were more likely to be in debt (e.g. college loans to pay off and newly entering the work force). Those who were older (10+ years of employment) also were more likely to be in debt (e.g. borrowing money to pay numerous expenses, bills, mortages, etc).
+#### Years of employment could be a nice proxy for age (age data is not available in any of the datasets). As seen below, those who are younger are more likely to be in debt (e.g. college loans to pay off and newly entering the work force). Those who are older (10+ years of employment) are also more likely to be in debt (e.g. borrowing money to pay numerous expenses, bills, mortages, etc).
 
 
 ```python
