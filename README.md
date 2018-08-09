@@ -3,7 +3,7 @@
 
 ### By Dan Ngo (Group #7)
 
-[Preparing the Data](pages/Preparing_the_Data.md) | [sample link](pages/CSCIE3Project3a.html) | [sample link 2](pages/Graph+Theory-+Dijkstra%27s+Algorithm.md)
+[Preparing the Data](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [sample link](pages/CSCIE3Project3a.html) | [sample link 2](pages/Graph+Theory-+Dijkstra%27s+Algorithm.md)
 
 
 #### About LendingClub
