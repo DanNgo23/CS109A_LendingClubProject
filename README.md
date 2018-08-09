@@ -3,7 +3,7 @@
 
 ### By Dan Ngo (Group #7)
 
-[Preparing the Data](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [Machine Learning Predictions](pages/Machine_Learning/Machine_Learning.md) | [Conclusion](pages/Conclusion.md) 
+[Preparing the Data](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [Machine Learning Predictions](pages/Machine_Learning/Machine_Learning.md) | [Conclusions](pages/Conclusion.md) 
 
 
 #### About LendingClub
