@@ -1,7 +1,7 @@
 
 # Preparing the Data
 
-## A Description of the Data 
+#### A Description of the Data 
 
 For this project statement, we will use 8 datasets. The first 7 datasets are accepted loans from the fiscal quarters in [2016 and 2017](https://github.com/Polkaguy/LendingClubData/tree/master/Loan%20Data). Each has over 100,000 rows and all 7 are concatenated by row into a single dataset of accepted loans. Each have the same columns, but not all columns will be used. Since there are an abundance of columns, it would be easier to perform exploratory data analysis if we select only a subset of significant columns and focus on that subset. The 8th dataset is the rejected loan dataset (over 700,000 rows) from the LendingClub website. You can see below in the `acc_fields` variable which columns are selected but the true subset is much less. The variables `emp_length` (years of employment) and `fico_range` (FICO score) from the accepted loans dataset and `Debt-to-Income Ratio` from the rejected loans dataset are used for exploratory data analysis, considering that these are the variables that will serve as predictors in our predictive models. 
 
