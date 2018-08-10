@@ -4,7 +4,7 @@ Our second project goal is to analyze profitability from the point of view of le
 see if we can develop strategies that can maximize it. The factors that determine profitability are the
 Probability of Default, the Loss Given Default, and the return that can be earned from interest. While it
 could be possible to build a complete model of profitability that integrates all of these aspects, that
-would be a very complicated model, so instead we have focused on only one key aspect in the models
+would be a very complicated model. Instead we have focused on only one key aspect in the models
 that we have built – the Probability of Default.
 
 The “accepted loan” dataset from the LendingClub website contains all loans that have been disbursed,
@@ -24,7 +24,7 @@ evaluate the models by looking at the rate of correct predictions, and whether t
 defaults from non-defaults in a way that can help an investor select better loans to lend to.
 Early in the project, we were looking into selecting specific variables to use based on conceptual
 theories about what characteristics of loans would indicate higher default probability of default.
-However, after exploring the data, it turned out that there didn’t seem to be any specific strong
-relationships that could be garnered in that way, so we shifted to using an approach where we feed in
+However, after exploring the data, it turned out that there did not seem to be any specific strong
+relationships that could be garnered in that way. Thus, we shifted to using an approach where we feed in
 all of the available variables into the models, and/or having the features chosen by the software based
 on modeling results.
