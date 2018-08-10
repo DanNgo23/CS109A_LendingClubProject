@@ -1,5 +1,5 @@
 
-# Exploratory Data Analysis (EDA)
+# 1.2 Exploratory Data Analysis (EDA)
 
 #### It appears FICO scores are bimodal for loans that are rejected. For loans that are accepted, it appears FICO scores are above a certain threshold- over 600. This could useful information for our model.
 
