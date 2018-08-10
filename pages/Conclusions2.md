@@ -27,9 +27,13 @@ The [loss] column represents the percentage of loss if the loan default. This co
 We then go on to eliminate highly collinear features for they will make the model behave weirdly. In this stage, we wanted to eliminate variables that have a higher than 0.8 correlation coefficient to other variables. We achieved elimination of collinear variables by calculating the correlation matrix among variables.
 
 Variables are included unless-
+
 1 - variable is very highly correlated with others
+
 2 - variable looks like it represents information collected after loan disbursement
+
 3 - variable is categorical that cannot be usefully converted
+
 The above procedure yields 106 features.
 
 Our next step is missing value imputation. Most of the variables in our analysis have missing values. The columns `mths_since_last_delinq`, `mths_since_last_record`, `mo_sin_old_il_acct`, and `mths_since_recent_revol_delinq` are scarcely populated but important predictors, so we do not want to just discard these columns. Missing values in those columns mean ‘not applicable’ (e.g. The applicant does not have any delinquency, or does not have any installment account’). So we impute the missing values with a large number. We use 600 (months) for all the missing values in those columns to represent absence of those events. Other imputations are zero for event counts or 100 for percentage utilization.
