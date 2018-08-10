@@ -1,5 +1,5 @@
 
-# Machine Learning
+# 1.3 Machine Learning
 
 ## Building Binary Classifiers
 
