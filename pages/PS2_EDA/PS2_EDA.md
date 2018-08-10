@@ -1,5 +1,5 @@
 
-# Exploratory Data Analysis (EDA)
+# 2.2 Exploratory Data Analysis (EDA)
 
 
 ```python
