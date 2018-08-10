@@ -1,5 +1,5 @@
 
-## 2.1 Data Preparation
+# 2.1 Preparing the Data
 
 #### Lending club data was downloaded from the [website](https://www.lendingclub.com/info/download-data.action). We downloaded the loan data, which are the applications that got funded, so we can do supervised learning, knowing which loans default in the end. 
 #### For analysis, we use 2012-2013 data because the loans are old enough so we know the final performances. We then read the csv file into ipython for the next stage of data cleaning/engineering. The procedure yields 184,567 rows.
