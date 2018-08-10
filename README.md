@@ -1,10 +1,13 @@
-# CS109A Final Project Project: 
+# CS109A Final Project: 
 ## LendingClub Investments
 
-### By Dan Ngo, Stuart Neilson, Chih-Wei Chang, and Endrit Pllashniku (Group #7)
+### By Dan Ngo, Stuart Neilson, Chih-Wei Chang (Group #7)
 
+## Part 1
 [Data Preparation](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [Machine Learning Predictions](pages/Machine_Learning/Machine_Learning.md) | [Conclusions](pages/Conclusions.md) 
 
+## Part 2
+[Data Preparation](pages/PS2_Data_Preparation.md) | [Exploratory Data Analysis](pages/PS2_EDA/PS2_EDA.md) | [Machine Learning Predictions](pages/PS2_Models/PS2_models.md) | [Conclusions](pages/Conclusions2.md) 
 
 #### About LendingClub
 
