@@ -1,6 +1,6 @@
 # Project Goal 2 – Lending Profitability
 
-Our second Project Goal is to analyze profitability from the point of view of lenders on the platform, and
+Our second project goal is to analyze profitability from the point of view of lenders on the platform, and
 see if we can develop strategies that can maximize it. The factors that determine profitability are the
 Probability of Default, the Loss Given Default, and the return that can be earned from interest. While it
 could be possible to build a complete model of profitability that integrates all of these aspects, that
