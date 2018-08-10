@@ -4,7 +4,7 @@
 ### By Dan Ngo, Stuart Neilson, Chih-Wei Chang (Group #7)
 
 ## Part 1: Loan Discrimination
-[Project Goal](pages/Intro1.md) 
+[Project Goal](pages/Intro.md) 
 
 [Data Preparation](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [Machine Learning Predictions](pages/Machine_Learning/Machine_Learning.md) | [Conclusions](pages/Conclusions.md) 
 
