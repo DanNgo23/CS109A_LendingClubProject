@@ -1,10 +1,10 @@
 
 # Conclusions
 
-To predict default of a loan application, we used Lending Club’s accepted loan data for analysis. Because the loans are funded, we can know the performance of each loan and do supervised learning. We used 2012-2013 loan data, because these
+To predict default of a loan application, we used LendingClub’s accepted loan data for analysis. Because the loans are funded, we can know the performance of each loan and do supervised learning. We used 2012-2013 loan data, because these
 loans are old enough (longer than 60 month) so we don’t have to drop a great number of loans that are still outstanding.
 
-The raw data from Lending Club’s website contains a lot of empty columns. We did preliminary data cleaning by deleting those empty columns. We then do the following stage of data cleaning/engineering (the procedure yields 184,567 rows).
+The raw data from LendingClub’s website contains a lot of empty columns. We did preliminary data cleaning by deleting those empty columns. We then do the following stage of data cleaning/engineering (the procedure yields 184,567 rows).
 
 First, we try to convert text to numeric information, which is easier to model. We did the conversion below:
 
