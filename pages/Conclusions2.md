@@ -7,14 +7,21 @@ loans are old enough (longer than 60 month) so we don’t have to drop a great n
 The raw data from Lending Club’s website contains a lot of empty columns. We did preliminary data cleaning by deleting those empty columns. We then do the following stage of data cleaning/engineering (the procedure yields 184,567 rows).
 
 First, we try to convert text to numeric information, which is easier to model. We did the conversion below:
+
  Column `emp_length`: This is a categorical field representing applicant’s employment length. We converted it to numerical.
+
  Column `earliest_cr_line`: This is a date field representing the date of the applicant’s earliest credit line. We convert the date to number of months ago.
+
  Column `loan_status`: This is our response variable. It is a categorical field including values of 'Fully Paid', 'Charged off', 'Default' and 'Current'. We define a successful loan (not default) as ‘Fully Paid’ and gives this field a value 0 . We define ‘Charged off’ and ‘Default’ as default loan, and give it a value 1. We discard rows with ‘Current’ value in this field.
+
  Column `Sub_grade`: This is a categorical field representing application’s creditworthiness with values A1,A2,…A5, B1, B2,…B5, …… G1,G2,…G5, with A1 being the best grade. We assigned A1 = 1, A2 = 2, …,G5 = 35.
+
  Column `total_pymnt` and `loan_amnt`: We engineer these two columns to make a new column ‘loss’ by doing the operation:
 [loss] = max(1 `total_pymnt`/`loan_amnt`,0)
 The [loss] column represents the percentage of loss if the loan default. This column is not a predictor but a response variable for our later analysis of investment strategy.
+
  Convert other categorical variables that are not inherently ordered into dummy variables. Columns converted to dummies are : purpose (debt consolidation, home improvement…), term (36month, 60month), home owner status, state of address, initial list status, and income source verified.
+
  Deleted ‘ad-hoc’ columns that are part of the payment status of the loan. Such as total payment received, total interest received, total principal received, late fees. Such information is not available at the time when investors make funding decision, thus should not be included in predictors.
 
 We then go on to eliminate highly collinear features for they will make the model behave weirdly. In this stage, we wanted to eliminate variables that have a higher than 0.8 correlation coefficient to other variables. We achieved elimination of collinear variables by calculating the correlation matrix among variables.
