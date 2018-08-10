@@ -323,7 +323,7 @@ for l in CV_object.coef_:
 
 ## Variable Selection
 
-#### We found the significant predictors: (coefficients whose p value is smaller than 2.5%. 
+#### We found the significant predictors: coefficients whose p value is smaller than 2.5%. 
 #### We can train a logistic regression model with the reduced set of input variables. The result shows that we get comparable test accuracy.
 
 
@@ -418,7 +418,7 @@ for l in CV_object.coef_:
     Source Verified 0.0325555395332
 
 
-#### Higher interest rate, worse sub-grade, high debt-to-income ratio, more account open in past 24 months, and longer loan term(60 months) increase the probability of default, while higher income decrease the probability of default. The result is intuitive, higher interest rate increase the burden of borrower and is also equivalent to weaker creditworthiness, both of which increase the risk of default. Worse sub-grade represents higher default risk. Higher annual income means higher ability for debt payment.  Higher debt-to-income ration and more account opening in past 24 months both signals the borrower’s aggressiveness in using debt, which increase the default risk. A shorter loan has lower risk. Other variables seem to have lower predictive power on default.Some states have lower default risk. 
+#### Higher interest rate, worse sub-grade, high debt-to-income ratio, more account open in past 24 months, and longer loan term(60 months) increase the probability of default, while higher income decreases the probability of default. The result is intuitive, higher interest rate increases the burden of borrower and is also equivalent to weaker creditworthiness, both of which increase the risk of default. Worse sub-grade represents higher default risk. Higher annual income means higher ability for debt payment. Higher debt-to-income ratio and more accounts opening in past 24 months both signal the borrower’s aggressiveness in using debt, which increase the default risk. A shorter loan has lower risk. Other variables seem to have lower predictive power on default. Some states have lower default risk. 
 
 
 ```python
