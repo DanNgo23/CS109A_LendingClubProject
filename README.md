@@ -6,7 +6,8 @@
 ## Part 1
 [Data Preparation](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [Machine Learning Predictions](pages/Machine_Learning/Machine_Learning.md) | [Conclusions](pages/Conclusions.md) 
 
-## Part 2
+## Part 2: Lending Profitability
+[Project Goal](pages/intro2.md)
 [Data Preparation](pages/PS2_Data_Preparation.md) | [Exploratory Data Analysis](pages/PS2_EDA/PS2_EDA.md) | [Machine Learning Predictions](pages/PS2_Models/PS2_Models.md) | [Conclusions](pages/Conclusions2.md) 
 
 #### About LendingClub
