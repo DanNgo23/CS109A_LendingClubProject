@@ -3,12 +3,12 @@
 *By Dan Ngo, Stuart Neilson, Chih-Wei Chang [Group #7]*
 
 ## Part I: Loan Discrimination
-[I. Introduction: Project Goal 1](pages/Intro.md) 
+[I. Introduction: Problem Statement 1](pages/Intro.md) 
 
 [Data Preparation](pages/Preparing_the_Data.md) | [Exploratory Data Analysis](pages/Only_EDA/Only_EDA.md) | [Machine Learning Predictions](pages/Machine_Learning/Machine_Learning.md) | [Conclusions](pages/Conclusions.md) 
 
 ## Part II: Lending Profitability
-[II. Introduction: Project Goal 2](pages/Intro2.md) 
+[II. Introduction: Problem Statement 2](pages/Intro2.md) 
 
 [Data Preparation](pages/PS2_Data_Preparation.md) | [Exploratory Data Analysis](pages/PS2_EDA/PS2_EDA.md) | [Machine Learning Predictions](pages/PS2_Models/PS2_Models.md) | [Conclusions](pages/Conclusions2.md) 
 
