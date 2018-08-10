@@ -72,7 +72,7 @@ profiles so they all got funded. Two samples may have identical feature values a
 
 Although none of the models is good at predicting default, the probability we get from logistic regression can be used to build our investment strategy. Our investment strategy is not based on predicting default (classification) but instead on using the predicted default probability to calculate the expected return of a loan investment.
 
-#### Investment Strategy
+### Investment Strategy
 
 **Our investment strategy is to invest in any loan that has an expected value that is higher than our cost of fund, and to fund a smaller amount to greater number of loans.** Detail and derivation of our strategy are showed below.
 
