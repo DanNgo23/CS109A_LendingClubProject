@@ -1,5 +1,5 @@
 
-# 2.3 Machine Learning Predictions
+# 2.3 Machine Learning
 
 
 ```python
