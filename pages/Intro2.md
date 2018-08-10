@@ -1,4 +1,6 @@
-# Project Goal 2 – Lending Profitability
+# Lending Profitability
+
+### Second Project Goal
 
 Our second project goal is to analyze profitability from the point of view of lenders on the platform, and
 see if we can develop strategies that can maximize it. The factors that determine profitability are the
