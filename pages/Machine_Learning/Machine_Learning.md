@@ -4,9 +4,9 @@
 ## Building Binary Classifiers
 
 #### 0.......Preparing the data
-#### I.......Principal Component Analysis
-#### II......FICO score vs. Log of Debt to Income Ratio
-#### III.....Predictability of Zip Code Data
+#### I........Principal Component Analysis
+#### II.......FICO score vs. Log of Debt to Income Ratio
+#### III......Predictability of Zip Code Data
 #### IV......LDA, QDA, & K-NN
 #### V.......Boosting with Adaboost
 #### VI......Decision Boundaries with Principal Components
@@ -613,7 +613,9 @@ def print_model_results(model, X_test, y_test, auc_dict, acc_dict, sens_dict, sp
 auc_dict, acc_dict, sens_dict, spec_dict = {}, {}, {}, {}
 ```
 
-#### Binary Classification: Building classifiers to predict whether a loan application will be accepted or rejected
+### Binary Classification: 
+
+*Building classifiers to predict whether a loan application will be accepted or rejected*
 
 #### Our models use common data we have discovered- 'emp_length', 'FICO score', 'log_DtIR', from every loan application and sees if it can predict whether the loan was rejected or not. Train and test splits are used. The log of Debt-To-Income Ratio is used since the original data is so heavily skewed with a right tail and had a wide range. The first 3 digits of zip codes are also used. There are over 900 different three-digit zip codes and each of these are one-hot-encoded into dummy variables, as you saw before. Data on the state of residence is the last common data column within the two separate accepted and rejected loan datasets. This data has since been removed from our model predictors because it is redundant, considering we already have three-digit zip code data. 
 
