@@ -553,7 +553,7 @@ print("Total Variance Explained:", np.sum(var_explained))
 
 ### II. FICO score vs. Log of Debt to Income Ratio
 
-#### A look at where accepted and rejected loans lie on the plot with FICO score and the log of debt-to-income ratio:
+#### A look at where accepted and rejected loans lie on the plot with FICO score and the natural log of debt-to-income ratio:
 
 
 ```python
