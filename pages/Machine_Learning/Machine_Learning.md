@@ -4,11 +4,11 @@
 ## Building Binary Classifiers
 
 #### 0.......Preparing the data
-#### I........Principal Component Analysis
-#### II.......FICO score vs. Log of Debt to Income Ratio
-#### III......Predictability of Zip Code Data
-#### IV.......LDA, QDA, & K-NN
-#### V........Boosting with Adaboost
+#### I.......Principal Component Analysis
+#### II......FICO score vs. Log of Debt to Income Ratio
+#### III.....Predictability of Zip Code Data
+#### IV......LDA, QDA, & K-NN
+#### V.......Boosting with Adaboost
 #### VI......Decision Boundaries with Principal Components
 #### VII.....Stacking 
 #### VIII....Final Results
@@ -494,7 +494,7 @@ print("Total Variance Explained:", np.sum(var_explained))
     Total Variance Explained: 0.619616389005
 
 
-#### The top 2 principal components explain 62% of the total variance. Considering there are over 900 rows of zip code data, what if we eliminated all of them to see how much variation just employment length, FICO score, and the log of debt-to-income ratio can explain? Maybe the zip code data is just extra noise and the true signal lies within the numerical columns. 
+#### The top 2 principal components explain 62% of the total variance. Considering there are over 900 columns of zip code data, what if we eliminated all of the zip code columns to see how much variation just employment length, FICO score, and the log of debt-to-income ratio can explain? Maybe the zip code data is just extra noise and the true signal lies within the numerical columns. 
 
 #### Without zip code data:
 
@@ -1067,7 +1067,7 @@ for i in range(len(axes)):
 ![png](output_67_0.png)
 
 
-#### As shown above, the decision boundaries for the two linear classifiers - logistic regression and LDA - had linear separators that gave the accepted class more territory. K-NN, QDA, random forests, and AdaBoost, all had smaller decision boundaries for the accepted class. The accepted class is concentrated in a small area based on the two principal components.
+#### As shown above, the decision boundaries for the two linear classifiers - logistic regression and LDA - had linear separators that gave the accepted class more territory. K-NN, QDA, random forests, and AdaBoost, all in their own way via specific methods had smaller decision boundaries for the accepted class. The accepted class is concentrated in a small area based on the two principal components.
 
 ### VII. Stacking
 
