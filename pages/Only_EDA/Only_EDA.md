@@ -18,7 +18,7 @@ plt.show()
 ![png](output_2_0.png)
 
 
-#### The distribution of the log of "Debt-To-Income Ratio" for accepted loans is narrower. Rejected loans tend to have applicants with a wider range of debt-to-income ratios. Originally, we created this same plot with the regular "Debt-To-Income Ratio" column but the plot was practically nonexistent and inscrutable. The range was so wide that and the distribution was way too skewed. That's why the log of the column is used instead.
+#### The distribution of the natural log of "Debt-To-Income Ratio" for accepted loans is narrower. Rejected loans tend to have applicants with a wider range of debt-to-income ratios. Originally, we created this same plot with the regular "Debt-To-Income Ratio" column but the plot was practically nonexistent and inscrutable. The range was so wide that and the distribution was way too skewed. That's why the natural log of the column is used instead.
 
 
 ```python
