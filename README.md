@@ -10,7 +10,7 @@
 ## Part II: Lending Profitability
 [II. Introduction: Problem Statement 2](pages/Intro2.md) 
 
-[Data Preparation](pages/PS2_Data_Preparation.md) | [Exploratory Data Analysis](pages/PS2_EDA/PS2_EDA.md) | [Machine Learning Predictions](pages/PS2_Models/PS2_Models.md) | [Conclusions](pages/Conclusions2.md)<br><br>
+[Data Preparation](pages/PS2_Data_Preparation.md) | [Exploratory Data Analysis](pages/PS2_EDA/PS2_EDA.md) | [Machine Learning Predictions](pages/PS2_Models/PS2_Models.md) | [Conclusions](pages/Conclusions2.md)
 
 &nbsp;
 &nbsp;
