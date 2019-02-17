@@ -12,12 +12,11 @@
 
 [Data Preparation](pages/PS2_Data_Preparation.md) | [Exploratory Data Analysis](pages/PS2_EDA/PS2_EDA.md) | [Machine Learning Predictions](pages/PS2_Models/PS2_Models.md) | [Conclusions](pages/Conclusions2.md) 
 
-
-
-
+<br />
+<br />
 #### About LendingClub
 
-
+<br />
 ![alt text](images/lc.jpg)
 
 LendingClub is the first peer-to-peer lending network to register with the Securities and Exchange Commission (SEC). The LendingClub platform connects borrowers to investors and facilitates the payment of loans ranging from $1,000 to $40,000. The details of how this marketplace works are available on [LendingClub’s website](https://www.lendingclub.com/). The basic idea is that borrowers apply for a loan on the LendingClub Marketplace. Investors can review the loan applications, along with risk analysis provided by LendingClub, to determine how much of the loan request they are willing to fund. When the loan is fully funded, the borrower will receive the loan. Investors can also choose to have loans selected manually or automatically via a specified strategy. Loan details such as grade or subgrade, loan purpose, interest rate, and borrower information can all be used to evaluate a loan for possible investment.
