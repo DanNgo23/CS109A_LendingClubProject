@@ -1,5 +1,3 @@
-# CS109A Final Project: LendingClub Investments
-
 *By Dan Ngo, Stuart Neilson, Chih-Wei Chang [Group #7]*
 
 ## Part I: Loan Discrimination
